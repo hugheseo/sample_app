@@ -7,9 +7,13 @@ gem 'rails', '3.2.8'
 
 gem 'sqlite3'
 
+
 group :development do
 	gem 'rspec-rails', '2.6.1'
+
 end
+	gem 'annotate', '2.5.0', group: :development
+	gem 'bcrypt-ruby', '3.0.1'
 
 group :test do
 	gem 'rspec', '2.6.0'
